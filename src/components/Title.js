@@ -1,9 +1,10 @@
 import React from "react";
+import "./Title.css";
 
-const Title = () => {
+const Title = (props) => {
   return (
-    <div>
-      <h4>This is the title component.</h4>
+    <div className="section-title">
+      <h1 className="color-title">{props.title}</h1>
     </div>
   );
 };

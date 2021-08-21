@@ -1,9 +1,10 @@
 import "./App.css";
+import MoveOutApp from "./containers/MoveOutApp";
 
 function App() {
   return (
-    <div className="App">
-      <h3>Welcome to move-out-list application</h3>
+    <div>
+      <MoveOutApp />
     </div>
   );
 }

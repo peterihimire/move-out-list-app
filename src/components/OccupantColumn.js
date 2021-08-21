@@ -1,36 +1,36 @@
 import React from "react";
+import "./OccupantColumn.css";
 
-const OccupantColumns = () => {
+const OccupantColumn = () => {
   return (
     <div className="occupant-column">
-      <div className="occupant-column-center">
-        <div className="occupant-column-item">
-          <p>Move-out Date</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>ID</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>Address</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>Room</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>Location</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>Last Occupant</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>UID</p>
-        </div>
-        <div className="cart-columns-item">
-          <p>Balance</p>
-        </div>
+      <div className="occupant-column-title title-width-date ">
+        <h4>Move-out Date</h4>
       </div>
+      <div className="occupant-column-title title-width-id ">
+        <h4>ID</h4>
+      </div>
+      <div className="occupant-column-title title-width-address ">
+        <h4>Address</h4>
+      </div>
+      <div className="occupant-column-title title-width-room ">
+        <h4>Room</h4>
+      </div>
+      <div className="occupant-column-title title-width-location ">
+        <h4>Location</h4>
+      </div>
+      <div className="occupant-column-title title-width-occupant ">
+        <h4>Last Occupant</h4>
+      </div>
+      <div className="occupant-column-title title-width-uid ">
+        <h4>UID</h4>
+      </div>
+      <div className="occupant-column-title title-width-balance ">
+        <h4>Balance</h4>
+      </div>
+      <div className="occupant-column-title title-width-button "></div>
     </div>
   );
 };
 
-export default OccupantColumns;
+export default OccupantColumn;

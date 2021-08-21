@@ -1,0 +1,42 @@
+.occupant-column {
+  display: flex;
+}
+.occupant-column .occupant-column-title {
+  margin: 0 2rem 0 0;
+}
+.title-width-date {
+  width: 120px;
+  background-color: red;
+}
+.title-width-id {
+  width: 60px;
+  background-color: antiquewhite;
+}
+.title-width-address {
+  width: 300px;
+  background-color: azure;
+}
+.title-width-room {
+  width: 60px;
+  background-color: blueviolet;
+}
+.title-width-location {
+  width: 100px;
+  background-color: cadetblue;
+}
+.title-width-occupant {
+  width: 150px;
+  background-color: darkseagreen;
+}
+.title-width-uid {
+  width: 60px;
+  background-color: cyan;
+}
+.title-width-balance {
+  width: 80px;
+  background-color: darkgray;
+}
+.title-width-button {
+  width: 120px;
+  background-color: dodgerblue;
+}

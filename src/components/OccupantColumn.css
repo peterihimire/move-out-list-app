@@ -1,6 +1,6 @@
 .occupant-column {
   display: flex;
-  padding: 3rem 0;
+  padding: 5rem 0;
   border: solid 2px var(--main-grey);
   border-top: none;
   border-left: none;

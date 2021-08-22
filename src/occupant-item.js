@@ -6,18 +6,18 @@
 // import img6 from "./assets/6.png";
 // import img7 from "./assets/7.png";
 
-let occupants;
+let OCCUPANTS;
 
-export default occupants = [
+OCCUPANTS = [
   {
     id: 17454,
     date: "Jan 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 3,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Beatrice Nkechinyere",
     uid: 87699,
-    balance: 408.9,
+    balance: 260.09,
   },
   {
     id: 27454,
@@ -25,9 +25,9 @@ export default occupants = [
     address: "2543 Honeysuckle Rd, NW",
     room: 2,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Peter Ihimire",
     uid: 87654,
-    balance: 408.9,
+    balance: 108.09,
   },
   {
     id: 37454,
@@ -35,9 +35,9 @@ export default occupants = [
     address: "2543 Honeysuckle Rd, NW",
     room: 1,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Bridget Mmakogu",
     uid: 87650,
-    balance: 408.9,
+    balance: 465.09,
   },
   {
     id: 47454,
@@ -45,9 +45,9 @@ export default occupants = [
     address: "2543 Honeysuckle Rd, NW",
     room: 9,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Maria Ehinome",
     uid: 87759,
-    balance: 408.9,
+    balance: 608.09,
   },
   {
     id: 57454,
@@ -55,9 +55,9 @@ export default occupants = [
     address: "2543 Honeysuckle Rd, NW",
     room: 6,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Joseph Imadojemu",
     uid: 87629,
-    balance: 408.9,
+    balance: 308.09,
   },
   {
     id: 67454,
@@ -67,7 +67,7 @@ export default occupants = [
     location: "Atlanta, GA",
     occupant: "Melissa Banks",
     uid: 87459,
-    balance: 408.9,
+    balance: 708.09,
   },
   {
     id: 77454,
@@ -75,8 +75,9 @@ export default occupants = [
     address: "2543 Honeysuckle Rd, NW",
     room: 8,
     location: "Atlanta, GA",
-    occupant: "Melissa Banks",
+    occupant: "Nella Peters",
     uid: 87159,
-    balance: 408.9,
+    balance: 440.09,
   },
 ];
+export default OCCUPANTS;

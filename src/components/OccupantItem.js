@@ -1,12 +1,17 @@
 import React from "react";
 import "./OccupantItem.css";
-import FlipRoomButton from "./FlipRoomButton";
+import "./FlipRoomButton.css";
+// import FlipRoomButton from "./FlipRoomButton";
 import img from "../assets/img.png";
+import { connect } from "react-redux";
+import { MOVEUP } from "../store/action/action";
 
 const OccupantItem = (props) => {
   // console.log(props);
-  const { occupantsList } = props;
+  const { occupantsList, dispatch } = props;
   console.log(occupantsList);
+  // console.log(dispatch({ type: MOVEUP }));
+
   return (
     <div className="occupant-item-column">
       <div className="occupant-column-title title-width-date ">
@@ -41,10 +46,22 @@ const OccupantItem = (props) => {
         <p>(${occupantsList.balance})</p>
       </div>
       <div className="occupant-column-title title-width-button ">
-        <FlipRoomButton />
+        {/* <FlipRoomButton /> */}
+        <div>
+          <button
+            className="flip-btn"
+            onClick={() => dispatch({ type: MOVEUP })}
+          >
+            Flip room
+          </button>
+        </div>
       </div>
     </div>
   );
 };
-
-export default OccupantItem;
+const mapStateToProps = (state) => {
+  // console.log(state);
+  const { occupants } = state;
+  return { occupants };
+};
+export default connect(mapStateToProps)(OccupantItem);

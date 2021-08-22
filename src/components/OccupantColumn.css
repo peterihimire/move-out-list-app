@@ -1,42 +1,47 @@
 .occupant-column {
   display: flex;
+  padding: 3rem 0;
+  border: solid 2px var(--main-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .occupant-column .occupant-column-title {
   margin: 0 2rem 0 0;
 }
 .title-width-date {
   width: 120px;
-  background-color: red;
+  /* background-color: red; */
 }
 .title-width-id {
   width: 60px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 .title-width-address {
   width: 300px;
-  background-color: azure;
+  /* background-color: azure; */
 }
 .title-width-room {
   width: 60px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 .title-width-location {
   width: 100px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 .title-width-occupant {
   width: 150px;
-  background-color: darkseagreen;
+  /* background-color: darkseagreen; */
 }
 .title-width-uid {
   width: 60px;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 .title-width-balance {
   width: 80px;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 .title-width-button {
   width: 120px;
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
 }

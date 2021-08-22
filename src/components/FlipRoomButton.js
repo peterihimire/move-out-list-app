@@ -1,9 +1,10 @@
 import React from "react";
+import './FlipRoomButton.css'
 
 const FlipRoomButton = () => {
   return (
     <div>
-      <h4>Flip room button</h4>
+      <button className="flip-btn">Flip room</button>
     </div>
   );
 };

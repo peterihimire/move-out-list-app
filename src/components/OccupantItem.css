@@ -1,0 +1,30 @@
+.occupant-item-column {
+  display: flex;
+  padding: 2rem 0;
+  border: solid 2px var(--main-grey);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  align-items: center;
+}
+.occupant-item-column .occupant-column-title {
+  margin: 0 2rem 0 0;
+}
+.text-dark-green {
+  color: var(--primary-color);
+  /* font-weight: bold; */
+}
+.home-div {
+  width: 45px;
+  height: 45px;
+  margin: 0 2rem 0 0;
+}
+.home-div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.occupant-address-div {
+  display: flex;
+  align-items: center;
+}

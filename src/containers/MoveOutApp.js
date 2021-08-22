@@ -9,6 +9,8 @@ import React from "react";
 // import HomePopularCities from "../../properties/components/HomePopularCities";
 import Title from "../components/Title";
 import OccupantColumns from "../components/OccupantColumn";
+import OccupantList from "../components/OccupantList";
+import Footer from "../components/Footer";
 
 const MoveOutApp = () => {
   return (
@@ -20,6 +22,7 @@ const MoveOutApp = () => {
           <div className="main-content-container">
             <Title title="Move-out List" />
             <OccupantColumns />
+            <OccupantList />
             {/* <HomeAbout />
             <HomeRecent />
             <HomeHow />
@@ -28,7 +31,7 @@ const MoveOutApp = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

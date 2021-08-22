@@ -1,9 +1,14 @@
 import React from "react";
+import "./OccupantList.css";
+
+import OccupantItem from "./OccupantItem";
 
 const OccupantList = () => {
   return (
     <div>
-      <h3>This is the occupant list component.</h3>
+      <OccupantItem />
+      <OccupantItem />
+      <OccupantItem />
     </div>
   );
 };

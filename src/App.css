@@ -2,20 +2,24 @@
   position: relative;
   min-height: 100vh;
 }
+/****** MAKES SURE THE HEIGHT OF FOOTER CORRESPONDS WITH THE SPACE GIVEN  ******/
 #content-wrapper {
-  padding-bottom: 316px;
+  padding-bottom: 216px;
 }
+/****** MAKES SURE THE APP IS NOT LAPPING ON THE SCREEN EDGE ******/
 .main-content {
   padding: 0 2rem;
 }
+/****** MAKES SURE THE APP DOESN'T TAKE UP THE WHOLE WIDTH ******/
 .main-content-container {
   max-width: 117rem;
   margin: 0 auto;
 }
+/****** MAKES SURE FOOTER REMAINS AT THE BOTTOM ******/
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 316px; /*Footer height*/
+  height: 216px; /*Footer height*/
   padding: 0 2rem;
 }

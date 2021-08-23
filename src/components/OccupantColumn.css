@@ -5,12 +5,15 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  /* width: 1000px; */
+  overflow-x: scroll;
 }
 .occupant-column .occupant-column-title {
   margin: 0 2rem 0 0;
+  width: 100% !important;
 }
 .title-width-date {
-  width: 120px;
+  width: 120px !important;
   /* background-color: red; */
 }
 .title-width-id {
@@ -44,4 +47,58 @@
 .title-width-button {
   width: 120px;
   /* background-color: dodgerblue; */
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+}
+/* LAPTOP */
+@media (min-width: 993px) {
+  .occupant-column {
+    display: flex;
+    padding: 5rem 0;
+    border: solid 2px var(--main-grey);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow-x: scroll;
+  }
+  .occupant-column .occupant-column-title {
+    margin: 0 2rem 0 0;
+  }
+  .title-width-date {
+    width: 120px !important;
+    /* background-color: red; */
+  }
+  .title-width-id {
+    width: 60px;
+    /* background-color: antiquewhite; */
+  }
+  .title-width-address {
+    width: 300px;
+    /* background-color: azure; */
+  }
+  .title-width-room {
+    width: 60px;
+    /* background-color: blueviolet; */
+  }
+  .title-width-location {
+    width: 100px;
+    /* background-color: cadetblue; */
+  }
+  .title-width-occupant {
+    width: 150px;
+    /* background-color: darkseagreen; */
+  }
+  .title-width-uid {
+    width: 60px;
+    /* background-color: cyan; */
+  }
+  .title-width-balance {
+    width: 80px;
+    /* background-color: darkgray; */
+  }
+  .title-width-button {
+    width: 120px;
+    /* background-color: dodgerblue; */
+  }
 }

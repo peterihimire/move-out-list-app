@@ -1,17 +1,9 @@
-// import img1 from "./assets/1.png";
-// import img2 from "./assets/2.png";
-// import img3 from "./assets/3.png";
-// import img4 from "./assets/4.png";
-// import img5 from "./assets/5.png";
-// import img6 from "./assets/6.png";
-// import img7 from "./assets/7.png";
-
 let OCCUPANTS;
 
 OCCUPANTS = [
   {
-    id: 17454,
-    date: "Jan 18, 2020",
+    id: 17400,
+    date: "Nov 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 3,
     location: "Atlanta, GA",
@@ -20,8 +12,8 @@ OCCUPANTS = [
     balance: 260.09,
   },
   {
-    id: 27454,
-    date: "Jan 18, 2020",
+    id: 27414,
+    date: "Dec 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 2,
     location: "Atlanta, GA",
@@ -30,8 +22,8 @@ OCCUPANTS = [
     balance: 108.09,
   },
   {
-    id: 37454,
-    date: "Jan 18, 2020",
+    id: 37459,
+    date: "Sep 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 1,
     location: "Atlanta, GA",
@@ -40,8 +32,8 @@ OCCUPANTS = [
     balance: 465.09,
   },
   {
-    id: 47454,
-    date: "Jan 18, 2020",
+    id: 47467,
+    date: "Feb 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 9,
     location: "Atlanta, GA",
@@ -50,8 +42,8 @@ OCCUPANTS = [
     balance: 608.09,
   },
   {
-    id: 57454,
-    date: " Jan 18, 2020",
+    id: 57432,
+    date: " Aug 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 6,
     location: "Atlanta, GA",
@@ -60,8 +52,8 @@ OCCUPANTS = [
     balance: 308.09,
   },
   {
-    id: 67454,
-    date: "Jan 18, 2020",
+    id: 67408,
+    date: "Jun 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 4,
     location: "Atlanta, GA",
@@ -70,8 +62,8 @@ OCCUPANTS = [
     balance: 708.09,
   },
   {
-    id: 77454,
-    date: "Jan 18, 2020",
+    id: 77421,
+    date: "Mar 18, 2020",
     address: "2543 Honeysuckle Rd, NW",
     room: 8,
     location: "Atlanta, GA",

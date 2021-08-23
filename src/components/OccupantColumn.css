@@ -5,15 +5,13 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  /* width: 1000px; */
   overflow-x: scroll;
 }
 .occupant-column .occupant-column-title {
   margin: 0 2rem 0 0;
-  width: 100% !important;
 }
 .title-width-date {
-  width: 120px !important;
+  width: 120px;
   /* background-color: red; */
 }
 .title-width-id {

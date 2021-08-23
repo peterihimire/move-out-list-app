@@ -1,4 +1,6 @@
 import "./App.css";
+// import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 import Title from "./components/Title";
 import OccupantColumns from "./components/OccupantColumn";
 import OccupantList from "./components/OccupantList";
@@ -23,8 +25,8 @@ const App = () => {
     <Provider store={store}>
       <div id="page-container" className="App">
         <div id="content-wrapper">
-          {/* <Navbar />
-        <Banner /> */}
+          {/* <Navbar /> */}
+          <Banner />
           <div className="main-content">
             <div className="main-content-container">
               <Title title="Move-out List" />

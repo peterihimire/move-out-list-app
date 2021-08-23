@@ -6,10 +6,9 @@ function reducer(state, action) {
   switch (action.type) {
     case MOVEUP:
       console.log("room flipped up bro");
-      let single = state.occupants.map((occupant, index) => {
-        return console.log(occupant, index);
-      });
-      console.log(single);
+      let moveArr = state.occupants;
+      console.log(moveArr);
+
       return { ...state };
     default:
       return state;

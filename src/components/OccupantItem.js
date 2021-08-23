@@ -9,7 +9,7 @@ import { MOVEUP } from "../store/action/action";
 const OccupantItem = (props) => {
   // console.log(props);
   const { occupantsList, dispatch } = props;
-  console.log(occupantsList);
+  // console.log(occupantsList);
   // console.log(dispatch({ type: MOVEUP }));
 
   return (

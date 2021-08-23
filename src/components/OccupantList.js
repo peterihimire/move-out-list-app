@@ -6,7 +6,7 @@ import OccupantItem from "./OccupantItem";
 // import { MOVEUP } from "../store/action/action";
 
 const OccupantList = ({ occupants, dispatch }) => {
-  console.log(occupants);
+  // console.log(occupants);
   // console.log(dispatch);
   return occupants.map((occupant) => {
     return (
@@ -21,7 +21,7 @@ const OccupantList = ({ occupants, dispatch }) => {
   });
 };
 const mapStateToProps = (state) => {
-  console.log(state);
+  // console.log(state);
   const { occupants } = state;
   return { occupants };
 };

@@ -4,51 +4,19 @@
   /* min-height: 600px; */
   padding-top: 0;
   background-color: var(--primary-color);
-  /* background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.604),
-    rgba(0, 0, 0, 0.604)
-  ); */
   margin: 0 0 4rem 0;
   padding: 0 2rem;
   color: var(--main-white);
 }
 /* FOR VERTICAL CENTERING OF CONTENT */
-.banner-content {
-  height: 80vh;
-  position: relative;
-}
-.banner-left {
-  width: 300px;
-  position: absolute;
-  top: 30%;
-}
-.banner-left h1 {
-  font-size: 3.5rem;
-}
-.banner-left p {
-  padding: 1rem 0 2rem 0;
-}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
-  .banner-left {
-    width: 500px;
-    position: absolute;
-    top: 35%;
-  }
 }
 /* LAPTOP */
 @media (min-width: 993px) {
   .banner-container {
     max-width: 117rem;
     margin: 0 auto;
-  }
-  .banner-left {
-    width: 500px;
-    position: absolute;
-    top: 35%;
-  }
-  .banner-left h1 {
-    font-size: 5rem;
   }
 }

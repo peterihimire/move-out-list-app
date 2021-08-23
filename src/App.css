@@ -6,6 +6,8 @@
 /****** GIVES EXTRA BOTTOM SPACE FOR FOOTER TO FIT IN  ******/
 #content-wrapper {
   padding-bottom: 216px;
+  /* width: 100% !important; */
+  /* overflow-x: scroll; */
 }
 /****** MAKES SURE CONTENT DONT LAP AGAINST CONTAINER WALL ******/
 .main-content {

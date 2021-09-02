@@ -2,7 +2,8 @@ import React from "react";
 import "./OccupantItem.css";
 import img from "../assets/img.png";
 import { connect } from "react-redux";
-import { MOVEUP } from "../store/action/action";
+import { MOVEUP, moveUp } from "../store/action/action";
+console.log(MOVEUP);
 
 const OccupantItem = (props) => {
   const { moveup } = props;
@@ -52,7 +53,10 @@ const OccupantItem = (props) => {
 };
 const mapDispatchToProps = (dispatch, ownProps) => {
   const { id } = ownProps;
-  return { moveup: () => dispatch({ type: MOVEUP, payload: { id: id } }) };
+  // return { moveup: () => dispatch({ type: MOVEUP, payload: { id: id } }) };
+
+  // If we had an app we need to dispatch MOVEUP action many times, using action creators will be better, easier and less bug.
+  return { moveup: () => dispatch(moveUp(id)) };
 };
 
 const mapStateToProps = (state) => {

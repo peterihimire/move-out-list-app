@@ -22,6 +22,7 @@ const store = createStore(reducer, initialStore);
 
 const App = () => {
   return (
+    // The provider requires or needs the props store where we pass the initial state value to it.
     <Provider store={store}>
       <div id="page-container" className="App">
         <div id="content-wrapper">

@@ -6,7 +6,7 @@ import { MOVEUP, moveUp } from "../store/action/action";
 console.log(MOVEUP);
 
 const OccupantItem = (props) => {
-  console.log(props);
+  // console.log(props);
   const {
     moveup,
     date,
@@ -63,11 +63,14 @@ const OccupantItem = (props) => {
     </div>
   );
 };
+// mapDispatchToProps has a second argument or parameter [ownProps]. Whatever props are beign passed into the component, we can get access to via the ownprops, this object inside ownProps matches exactly what we have in our component, so we can simply destructure it to get hold of individual id we need to pass to our payload.
 const mapDispatchToProps = (dispatch, ownProps) => {
-  console.log(dispatch);
+  console.log(ownProps);
   const { id } = ownProps;
 
-  // If we had an app were we need to dispatch MOVEUP action many times like (20 times), using action creators will be better, easier and less buggy.
+  // If we had an app were we need to dispatch MOVEUP action many times like (20 times), using action creators will be better, easier and less buggy. The arrow function attached to the dispatch makes sure that it runs or executes when clicked, cause without the arrow function , it runs right-away.
+
+  // In order to access id or which item we are working with and pass it to our [reducer] we need to use a convention of using the payload key and settng it to an object value of id. We will pass it as a second object property after the dispatch type, because it is a must when we are dispatching an action we must have a type
 
   // return { moveup: () => dispatch({ type: MOVEUP, payload: { id: id } }) };
   return { moveup: () => dispatch(moveUp(id)) };
